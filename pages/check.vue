@@ -3,7 +3,7 @@
         <headr></headr>
         <h1>removed images</h1>
         <removed></removed>
-        <h1>wating images</h1>
+        <h1>waiting images</h1>
         <waiting-images></waiting-images>
         <div style="height: 500px"></div>
     </section>

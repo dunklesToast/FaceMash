@@ -69,7 +69,7 @@ module.exports = {
                 type: "text/javascript"
             },
             {
-                src: "//https://www.googletagmanager.com/gtag/js?id=UA-109492702-2",
+                src: "https://www.googletagmanager.com/gtag/js?id=UA-109492702-2",
                 type: "text/javascript"
             },
             {
