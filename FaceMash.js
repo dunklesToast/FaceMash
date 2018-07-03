@@ -23,7 +23,7 @@ require('./database/start')(function (success) {
         const ua = useragent.is(req.headers['user-agent']);
         reply.setHeader('server', 'gws');
         reply.setHeader('facemash', require('./package').version);
-        if (ua.ie && parseInt(ua.version) <= 9) res.end('your browser (internet explorer ' + ua.version + ') is too old. please upgrade');
+        if (ua.ie && parseInt(ua.version) <= 9) reply.end('your browser (internet explorer ' + ua.version + ') is too old. please upgrade');
         else next();
     });
 
