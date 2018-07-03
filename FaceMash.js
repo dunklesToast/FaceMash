@@ -1,3 +1,5 @@
+console.log("This is " +  (process.env.NODE_ENV || 'dev') + 'env');
+
 require('./database/start')(function (success) {
 
     console.log('Database creation was ' + (success ? 'a' : 'no') + ' success');
