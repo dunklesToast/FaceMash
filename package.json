@@ -1,0 +1,44 @@
+{
+  "name": "facemash",
+  "version": "1.0.0",
+  "description": "facemash image compare",
+  "author": "dunklesToast <tom.sacher@mcggehrden.de>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "elo-rank": "^1.0.3",
+    "fastify": "^1.7.0",
+    "fastify-blipp": "^1.2.1",
+    "fastify-caching": "^3.0.0",
+    "fastify-helmet": "^1.0.3",
+    "fastify-response-time": "^1.0.4",
+    "js-sha512": "^0.7.1",
+    "lodash.get": "^4.4.2",
+    "nuxt": "^1.0.0",
+    "rethinkdbdash": "^2.3.31",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "useragent": "^2.3.0",
+    "uuid": "^3.3.2",
+    "vue-adsense": "^1.0.1",
+    "vue-analytics": "^5.12.2",
+    "vue-meta": "^1.5.0",
+    "vue-socket.io": "^2.1.1-b"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
