@@ -1,6 +1,6 @@
 # facemash
 
-> facemash image compare
+FaceMash ist eine Plattform um Bilder von Instagram zu vergleichen.
 
 ## Build Setup
 
